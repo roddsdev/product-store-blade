@@ -34,6 +34,7 @@ This is a small project made in:
 - Download project
 - Access project folder by terminal
 - Use command `composer install`
+- Rename ".env.example" file to ".env"
 - Use command `php artisan migrate`
 - (optional) use command `php artisan db:seed` (generate ramdom records in the database)
 - Use command `php artisan serve` (getting the server up and running)

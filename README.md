@@ -34,6 +34,7 @@ Este é um pequeno projeto feito em:
 - Baixar projeto
 - Acessar pasta via terminal 
 - Usar o comando `composer install`
+- Renomear o arquivo ".env.example" para ".env"
 - Usar o comando `php artisan migrate`
 - (opcional) usar o comando `php artisan db:seed` (se quiser gerar registros randômicos no banco de dados)
 - Usar o comando `php artisan serve` (para subir o servidor)
