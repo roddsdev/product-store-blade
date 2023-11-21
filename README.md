@@ -55,3 +55,21 @@ Este é um pequeno projeto feito em:
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Screenshots
+
+### Lista de produtos
+![image](https://github.com/roddsdev/product-store-blade/assets/148573340/8feea552-9898-4afb-9a41-8869c0478b9a)
+
+### Paginação
+![image](https://github.com/roddsdev/product-store-blade/assets/148573340/bf5675d5-c3e2-449d-9636-e0fff6966aaa)
+
+### Detalhe do produto selecionado e seus relacionamentos
+![image](https://github.com/roddsdev/product-store-blade/assets/148573340/559beb98-d8c2-4b44-b528-a14ab4579603)
+
+### Detalhe da categoria e os produtos a ela relacionados
+![image](https://github.com/roddsdev/product-store-blade/assets/148573340/03ff1425-395c-44bd-aba6-25a5296f33f9)
+
+### Validações de formulário
+![image](https://github.com/roddsdev/product-store-blade/assets/148573340/93fb7a3f-8924-4696-a40c-e088433a8a92)
+
