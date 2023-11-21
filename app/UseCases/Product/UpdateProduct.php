@@ -11,8 +11,7 @@ class UpdateProduct
     {
         $categories = $data['categories'];
         $product->update($data);
-        $product->categories()->detach();        
-        $product->categories()->attach($categories);
+        $product->categories()->sync($categories);
 
         Session::flash('flash_message',[
 			'msg'=>"Produto editado com sucesso!",

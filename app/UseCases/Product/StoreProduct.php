@@ -12,8 +12,7 @@ class StoreProduct
         $categories = $data['categories'];
         $newProduct = new Product($data);
         $newProduct->save();
-        $newProduct->categories()->detach();        
-        $newProduct->categories()->attach($categories);
+        $newProduct->categories()->sync($categories);
 
         Session::flash('flash_message',[
 			'msg'=>"Produto adicionado com sucesso!",
