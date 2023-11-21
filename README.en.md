@@ -1,0 +1,60 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+## Project CRUD Laravel + Blade
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/roddsdev/product-store-blade/blob/main/README.md)
+
+This is a small project made in:
+
+- Laravel 10
+- PHP 8.1.2
+- Blade
+- Bootstrap 5
+- Sqlite (database in filesystem)
+
+
+### Objective
+
+- Demonstrate the use of relationships between models (1-N and N-N) by "Eloquent"
+- Demonstrate CRUD in a simplified way
+- Use native "search" function on the models (entities) located in app\Models
+- Work on good practices learned from SOLID, TDD, DDD and Clean Architecture
+- Demonstrate the use of database\Factories and database\Seeders
+- Demonstrate the use of "Form Requests" to validate forms before entering controller methods
+- Using "Resource Routes" to define routes (routes\web)
+
+### How to use
+
+- Download project
+- Access project folder by terminal
+- Use command `composer install`
+- Use command `php artisan migrate`
+- (optional) use command `php artisan db:seed` (generate ramdom records in the database)
+- Use command `php artisan serve` (getting the server up and running)
+- Go to page `http://127.0.0.1:8000/`
+
+### Automated tests (100% OK)
+
+- Made with PHPUnit (native)
+- Use command `php artisan test`
+
+### Use in the Docker container
+
+- Access project folder
+- Use command `docker compose up`
+- Go to page `http://127.0.0.1:8000/`
+- To access the container, use the command `docker compose exec main sh`
+
+## More projects:
+
+- **[Meu repository](https://github.com/roddsdev?tab=repositories)**
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
